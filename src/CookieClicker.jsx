@@ -9,7 +9,7 @@ export default function CookieClicker() {
     <div className={styles.cookieContainer}>
       <h2>Click the cookie and score some points!</h2>
       <button className={styles.cookieBtn} onClick={scorePoeng}>
-        <img src="../public/cookie.png" alt="Image of a Cookie" />
+        <img src="./public/cookie.png" alt="Image of a Cookie" />
       </button>
       <p>Score poeng: {count}</p>
     </div>
