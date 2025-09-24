@@ -30,7 +30,9 @@ export default function CatFacts() {
 
   return (
     <div className={styles.catFactContainer}>
-      {loading && <img src="./public/loading.png" alt="Loading" />}
+      {loading && (
+        <img src={`${import.meta.env.BASE_URL}loading.png`} alt="Loading" />
+      )}
       {error && <p className={styles.error}>Error: {error}</p>}
       {facts && (
         <div>
