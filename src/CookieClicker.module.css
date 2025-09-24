@@ -1,0 +1,11 @@
+.cookieContainer {
+  box-shadow: 0 0 10px #2b303a;
+  background-color: #d8a47f;
+  border-radius: 7px;
+}
+
+.cookieBtn {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}

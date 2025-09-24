@@ -1,0 +1,11 @@
+.catFactContainer {
+  box-shadow: 0 0 10px #2b303a;
+  padding: 20px;
+  background-color: #bac1b8;
+  border-radius: 7px;
+}
+
+.error {
+  color: red;
+  font-weight: bold;
+}
